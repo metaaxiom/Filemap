@@ -28,40 +28,33 @@ body {
 
 
 
-/**
- * 	CSS3 Only Horizontal and Vertical Accordion
- * 	Author: Paul Underwood for Hongkiat.com
- *  Website: www.paulund.co.uk
- *  Date: 27/11/11
- *  Version: 1.0
- */
+
 
 /*Define Accordion box*/
-.filemap2 { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; }
+.filemap2 {
+	width: 830px;
+	overflow: hidden;
+	padding: 1em;
+	background: #f5f5f5;
+	border: 1px solid #e0e0e0;
+}
 
 /*General Accordion****************************************************************************/
 /*Set style of open slide*/
-.filemap2 section:target { background:#FFF; padding:10px;}
-.filemap2 section:target:hover { background:#FFF; }
-.filemap2 section:target h2 {width:100%;}
-.filemap2 section:target h2 a{ color:#333; padding:0;}
-.filemap2 section:target p {display:block;}
-.filemap2 section h2 a{padding:8px 10px;display:block; font-size:16px; font-weight:normal;color:#eee; text-decoration:none; }
+.filemap2 .folder2:target { background:#FFF; padding:10px;}
+.filemap2 .folder2:target:hover { background:#FFF; }
+.filemap2 .folder2:target h2 {width:100%;}
+.filemap2 .folder2:target h2 a{ color:#333; padding:0;}
+.filemap2 .folder2:target p {display:block;}
 
 /*set style of closed slide*/
-.filemap2 section{ float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
-.filemap2 section:hover {background:#444;}
-.filemap2 section p { display:none; }
-.filemap2 section:after{position:relative;font-size:24px;color:#000;font-weight:bold;}
-.filemap2 section:nth-child(1):after{content:'1';}
-.filemap2 section:nth-child(2):after{content:'2';}
-.filemap2 section:nth-child(3):after{content:'3';}
-.filemap2 section:nth-child(4):after{content:'4';}
-.filemap2 section:nth-child(5):after{content:'5';}
+.filemap2 .folder2 { float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
+.filemap2 .folder2:hover {background:#444;}
+.filemap2 .folder2 .file2 { display:none; }
 /*End General Accordion****************************************************************************/
 
 /*Vertical Accordion *************************************************************************/
-.filemap2 section{ width:100%; height:40px;
+.filemap2 .folder2{ width:100%; height:40px;
 	-webkit-transition:height 0.2s ease-out;
 	-moz-transition:height 0.2s ease-out;
   	-o-transition:height 0.2s ease-out;
@@ -71,8 +64,6 @@ body {
 /*Set height of the slide*/
 .filemap2 :target{ height:250px; width:97%; }
 
-.filemap2 section h2 { position:relative; left:0; top:-15px; }
-
 /*Set position of the number on the slide*/
-.filemap2 section:after{ top:-60px;left:810px;}
-.filemap2 section:target:after{ left:-9999px;}
+.filemap2 .folder2:after{ top:-60px;left:810px;}
+.filemap2 .folder2:target:after{ left:-9999px;}
