@@ -23,5 +23,10 @@
 				</ul>
 			</ul>
 		</div>
+		
+		
+		<script>
+			var collapsible = document.getElementsByClass("collapsible");
+		</script>
 	</body>
 </html>
