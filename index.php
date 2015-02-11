@@ -18,7 +18,7 @@
 				<li class="file"><i class="fa fa-file-code-o"></i> File 1</li>
 				<li class="file"><i class="fa fa-file-code-o"></i> File 2</li>
 				<li class="file"><i class="fa fa-file-code-o"></i> File 3</li>
-				<ul class="folder-wrap collapsable">
+				<ul class="folder-wrap collapsible">
 					<li class="folder-name"><i class="fa fa-folder-open-o"></i> Folder 2</li>
 					<li class="file"><i class="fa fa-file-code-o"></i> File 1</li>
 					<li class="file"><i class="fa fa-file-code-o"></i> File 2</li>
