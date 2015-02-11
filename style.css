@@ -53,7 +53,6 @@ body {
 /*set style of closed slide*/
 .filemap2 .folder2 {
 	overflow:hidden;
-	cursor:pointer;
 }
 .filemap2 .folder2 .file2 {
 	display:none;
@@ -68,8 +67,6 @@ body {
 	-ms-transition:height 0.2s ease-out;
   	transition:height 0.2s ease-out;
 }
-/*Set height of the slide*/
-.filemap2 :target{ height:250px; width:97%; }
 
 /*Set position of the number on the slide*/
 .filemap2 .folder2:after{ top:-60px;left:810px;}
