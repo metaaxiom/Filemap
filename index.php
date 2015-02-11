@@ -7,8 +7,6 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<!--Styling-->
 		<link rel="stylesheet" type="text/css" href="style.css">
-
-		<link rel="import" href="components/paper-dropdown/paper-dropdown.html">
 	</head>
 	<body>
 		<div class="filemap">
@@ -27,27 +25,32 @@
 		</div>
 
 
-		<div class="accordion vertical">
-		  <section id="vertabout">
-		      <h2><a href="#vertabout">Folder One</a></h2>
-		      <p><ul><li>file 1</li><li>file 2</li></ul></p>
-		  </section>
-		  <section id="vertservices">
-		      <h2><a href="#vertservices">Folder Two</a></h2>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
-		  </section>
-		  <section id="vertblog">
-		      <h2><a href="#vertblog">Folder Three</a></h2>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
-		  </section>
-		  <section id="vertportfolio">
-		      <h2><a href="#vertportfolio">Folder Four</a></h2>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
-		  </section>
-		  <section id="vertcontact">
-		      <h2><a href="#vertcontact">Folder Five</a></h2>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
-		  </section>
+		<div class="filemap2">
+		  <ul id="folder-one" class="folder2">
+		      <li class="folder-name2"><a href="#folder-one">Folder One</a></li>
+		      <li class="file2">File 1</li>
+		      <li class="file2">File 2</li>
+		  </ul>
+		  <ul id="folder-two" class="folder2">
+		      <li class="folder-name2"><a href="#folder-two">Folder Two</a></li>
+		      <li class="file2">File 1</li>
+		      <li class="file2">File 2</li>
+		  </ul>
+		  <ul id="folder-three" class="folder2">
+		      <li class="folder-name2"><a href="#folder-three">Folder Three</a></li>
+		      <li class="file2">File 1</li>
+		      <li class="file2">File 2</li>
+		  </ul>
+		  <ul id="folder-four" class="folder2">
+		      <li class="folder-name2"><a href="#folder-four">Folder Four</a></li>
+		      <li class="file2">File 1</li>
+		      <li class="file2">File 2</li>
+		  </ul>
+		  <ul id="folder-five" class="folder2">
+		      <li class="folder-name2"><a href="#folder-five">Folder Five</a></li>
+		      <li class="file2">File 1</li>
+		      <li class="file2">File 2</li>
+		  </ul>
 		</div>
 
 
