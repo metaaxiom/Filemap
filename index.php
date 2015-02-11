@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--jQuery-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 		<!--Fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:900,900italic,500,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
 		<!--Font Awesome-->
@@ -26,7 +28,9 @@
 		
 		
 		<script>
-			var collapsible = document.getElementsByClass("collapsible");
+			$(".collapsible").click(function(){
+				$(this + " .file").toggle();
+			});
 		</script>
 	</body>
 </html>
