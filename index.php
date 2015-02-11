@@ -16,43 +16,12 @@
 				<li class="file"><i class="fa fa-file-code-o"></i> File 1</li>
 				<li class="file"><i class="fa fa-file-code-o"></i> File 2</li>
 				<li class="file"><i class="fa fa-file-code-o"></i> File 3</li>
-				<ul class="folder-wrap">
+				<ul class="folder-wrap collapsable">
 					<li class="folder-name"><i class="fa fa-folder-open-o"></i> Folder 2</li>
 					<li class="file"><i class="fa fa-file-code-o"></i> File 1</li>
 					<li class="file"><i class="fa fa-file-code-o"></i> File 2</li>
 				</ul>
 			</ul>
 		</div>
-
-
-		<div class="filemap2">
-		  <ul id="folder-one" class="folder2">
-		      <li class="folder-name2"><a href="#folder-one">Folder One</a></li>
-		      <li class="file2">File 1</li>
-		      <li class="file2">File 2</li>
-		  </ul>
-		  <ul id="folder-two" class="folder2">
-		      <li class="folder-name2"><a href="#folder-two">Folder Two</a></li>
-		      <li class="file2">File 1</li>
-		      <li class="file2">File 2</li>
-		  </ul>
-		  <ul id="folder-three" class="folder2">
-		      <li class="folder-name2"><a href="#folder-three">Folder Three</a></li>
-		      <li class="file2">File 1</li>
-		      <li class="file2">File 2</li>
-		  </ul>
-		  <ul id="folder-four" class="folder2">
-		      <li class="folder-name2"><a href="#folder-four">Folder Four</a></li>
-		      <li class="file2">File 1</li>
-		      <li class="file2">File 2</li>
-		  </ul>
-		  <ul id="folder-five" class="folder2">
-		      <li class="folder-name2"><a href="#folder-five">Folder Five</a></li>
-		      <li class="file2">File 1</li>
-		      <li class="file2">File 2</li>
-		  </ul>
-		</div>
-
-
 	</body>
 </html>
