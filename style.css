@@ -43,12 +43,10 @@ body {
 /*Set style of open slide*/
 .filemap2 .folder2:target { background:#FFF; padding:10px;}
 .filemap2 .folder2:target:hover { background:#FFF; }
-.filemap2 .folder2:target h2 {width:100%;}
-.filemap2 .folder2:target h2 a{ color:#333; padding:0;}
-.filemap2 .folder2:target p {display:block;}
+.filemap2 .folder2:target .file2 {display:block;}
 
 /*set style of closed slide*/
-.filemap2 .folder2 { float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
+.filemap2 .folder2 { float:left;	overflow:hidden; color:#333; cursor:pointer; margin:3px; }
 .filemap2 .folder2:hover {background:#444;}
 .filemap2 .folder2 .file2 { display:none; }
 /*End General Accordion****************************************************************************/
