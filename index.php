@@ -29,7 +29,7 @@
 		
 		<script>
 			$(".collapsible").click(function(){
-				alert(x);
+				alert("x");
 			});
 		</script>
 	</body>
