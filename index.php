@@ -13,23 +13,28 @@
 	<body>
 		<div class="filemap">
 			<div class="filemap-description">This is a directory description</div>
-			<ul class="folder-wrap">
-				<li class="folder-name"><i class="fa fa-folder-open-o"></i> Folder 1</li>
-				<li class="file"><i class="fa fa-file-code-o"></i> File 1</li>
-				<li class="file"><i class="fa fa-file-code-o"></i> File 2</li>
-				<li class="file"><i class="fa fa-file-code-o"></i> File 3</li>
+			<ul class="folder-wrap collapsible">
+				<li class="folder-name">Folder 1</li>
+				<li class="file">File 1</li>
+				<li class="file">File 2<span>a short description</span></li>
+				<li class="file">File 3</li>
 				<ul class="folder-wrap collapsible">
-					<li class="folder-name"><i class="fa fa-folder-open-o"></i> Folder 2</li>
-					<li class="file"><i class="fa fa-file-code-o"></i> File 1</li>
-					<li class="file"><i class="fa fa-file-code-o"></i> File 2</li>
+					<li class="folder-name">Folder 2</li>
+					<li class="file">File 1</li>
+					<li class="file">File 2</li>
 				</ul>
+			</ul>
+			<ul class="folder-wrap collapsible">
+				<li class="folder-name">Folder 3</li>
+				<li class="file">File 1</li>
+				<li class="file">File 2</li>
 			</ul>
 		</div>
 		
 		
 		<script>
-			$(".collapsible").click(function(){
-				alert("x");
+			$('.collapsible .folder-name').click(function(){
+				$(this).parent().find('.file, .folder-wrap').slideToggle(150);
 			});
 		</script>
 	</body>
