@@ -32,10 +32,6 @@
 		</div>
 		
 		
-		<script>
-			$('.collapsible .folder-name').click(function(){
-				$(this).parent().find('.file, .folder-wrap').slideToggle(150);
-			});
-		</script>
+		<script type="text/javascript" src="collapsible.js"></script>
 	</body>
 </html>
