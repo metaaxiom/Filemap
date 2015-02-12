@@ -44,3 +44,25 @@ For folder and file descriptions, enclose them within a `span` tag inside the fo
 ```html
 <li class="folder-name">Folder<span>a short folder description</span></li>
 ```
+## Complete Example
+```html
+<div class="filemap">
+<div class="filemap-description">A short directory description</div>
+	<ul class="folder-wrap collapsible">
+		<li class="folder-name">Folder 1<span>a collapsible folder</span></li>
+		<li class="file">File 1</li>
+		<li class="file">File 2<span>a short file description</span></li>
+		<li class="file">File 3</li>
+		<ul class="folder-wrap collapsible">
+			<li class="folder-name">Folder 2</li>
+			<li class="file">File 1</li>
+			<li class="file">File 2</li>
+		</ul>
+	</ul>
+	<ul class="folder-wrap">
+		<li class="folder-name">Folder 3<span>a non-collapsible folder</span></li>
+		<li class="file">File 1</li>
+		<li class="file">File 2</li>
+	</ul>
+</div>
+```
