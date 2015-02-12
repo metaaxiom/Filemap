@@ -24,7 +24,7 @@
 					<li class="file">File 2</li>
 				</ul>
 			</ul>
-			<ul class="folder-wrap collapsible">
+			<ul class="folder-wrap">
 				<li class="folder-name">Folder 3</li>
 				<li class="file">File 1</li>
 				<li class="file">File 2</li>
