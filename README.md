@@ -1,6 +1,8 @@
 # Filemap
 Visual display for directory structures
 
+[DEMO](http://htmlpreview.github.io/?https://github.com/JDerwisz/Filemap/blob/master/demo.html)
+
 ## Installation
 Simply include the required CSS files in the `head`:
 ```html
